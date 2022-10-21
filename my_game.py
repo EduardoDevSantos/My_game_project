@@ -12,7 +12,7 @@ def run_game():
     # Seta a cor de fundo
     # Inicia o laço de repetição principal
     while True:
-        gf.check_events()
+        gf.check_events(sprite)
         # Mantém a tela mais recente visível
         gf.update_screen(ai_settings, screen, sprite)
         
